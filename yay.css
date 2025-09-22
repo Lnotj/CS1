@@ -1,0 +1,47 @@
+body {
+ background-color: #0080fe;
+ font-family: "caveat", cursive;
+ font-size: 15pt;
+ color: #9400d3;                              /* Dark violet colored text */
+ text-align: center;                          /* Keeps paragraphs center-aligned (no polotics here) */
+}
+h1 {
+  display: inline-block;                      /* shrinks width to fit text */
+  background-color: #073b3a;                  /* Backround only around text */
+  font-size: 49pt;
+  color: red;                                 /* bright red text */
+  Padding: 5px 10px;                          /* space around the text */
+  Margin: 20px auto;                          /* centers the h1 horzontally */
+  text-align: center;                         /* centers h1 block*/
+} 
+h2 {
+  text-align: left;                            /* keeps paragraphs align left (woke af) */
+  background-color: #0080fe;
+  color: #9400d3;
+}
+Img {
+  display:block;                               /* makes the image act as a block element*/
+  float: left;                                 /* Alignes the image to the left */
+  margin: 0 15px 15px 0;                       /* adds space around image: top right bottom left */
+}
+p {
+  text-align: left;
+  background-color: #0080fe;
+  font-family: Arial, sans-serif;              /* Use Arial as the primary font */
+  font-weight: bold;                           /* Makes the text bold */
+  font-size: 11pt;
+} 
+p.shrt {
+  display: inline-block;                       /* shinks width to fit content */
+  background-color: lightyellow;                   /* highlight it*/
+  width: 600px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+.row {
+  display: flex;                                 /* Enables horizontal layout */
+}
+li {
+	text-align: left;
+}
